@@ -1,0 +1,36 @@
+.label-gallery:hover {
+  background-color: #111111;
+  color: white;
+}
+
+.is-actived {
+  background-color: #111111;
+  color: white;
+}
+
+/* ------------------------------------ */
+
+.wrap-gallery {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item-gallery {
+  width: calc( (100% - 140px) / 3 ) ;
+  margin: 30px 15px;
+  position: relative;
+}
+
+.overlay-item-gallery {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.8);
+  opacity: 0;
+}
+
+.overlay-item-gallery:hover {
+  opacity: 1;
+}
