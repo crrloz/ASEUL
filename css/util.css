@@ -2359,7 +2359,11 @@
 }
 
 .shadow2 {
-  box-shadow: 0 16px 35px 0px rgba(15, 46, 81, 0.2);
+	box-shadow: 0 16px 35px 0px rgba(15, 46, 81, 0.2);
+}
+
+.shadow3 {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
 }
 
 /*[GRADIENTE]*/

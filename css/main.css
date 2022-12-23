@@ -630,3 +630,21 @@ nav ul li:hover div {
 .wrap-section-warning {
   align-items: center;
 }
+
+.display_img_first {
+  height: 600px;
+}
+
+.display_img_second{
+  height: 500px;
+}
+
+@media (max-width: 991px){
+  .display_img_first {
+    height: 400px;
+  }
+
+  .display_img_second{
+    height: 333px;
+  }
+}
