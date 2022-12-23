@@ -2225,6 +2225,12 @@
 
 .m-l--6 {margin-left: -6px;}
 
+.m-t-120-39 {margin-top: 120px;}
+
+@media (max-width: 990px) {
+	.m-t-120-39 {margin-top: 39px;}
+}
+
 /*[TEXT]*/
 
 .c-white {color: white;}
@@ -2249,6 +2255,10 @@
 .size4 {
 	width: 150px;
 	height: 60px;
+}
+
+.size2{
+	max-width: 390px;
 }
 
 .size32 {

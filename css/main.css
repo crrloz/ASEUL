@@ -221,12 +221,6 @@ video {
   transition: all 0.8s;
 }
 
-@media (max-width: 990px){
-  .banner{
-    margin-top: 59px;
-  }
-}
-
 .banner2 {
   margin-top: 110px;
   width: 100%;
@@ -237,6 +231,12 @@ video {
 .banner2:hover{
   background-color: rgb(255, 164, 179);
   transition: all 0.8s;
+}
+
+@media (max-width: 990px){
+  .banner, .banner2{
+    margin-top: 59px;
+  }
 }
 
 /*[NAVBAR]*/
@@ -293,17 +293,6 @@ video {
   margin: 5px;
 }
 
-.item-gallery-sidebar::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  transition: all 0.4s;
-}
-
 @media (max-width: 576px) {
   .wrap_header {
     height: 80px;
@@ -328,7 +317,7 @@ video {
 
 .wrap-menu-header li{
   float: left;
-  padding: 0.75rem 5px;
+  padding: 0.75rem 15px;
   text-transform: uppercase;
 }
 
@@ -626,6 +615,15 @@ nav ul li:hover div {
     width: 100%;
     top: 0px;
     left: 0px;
+  }
+}
+
+@media (max-width: 767px){
+  .wrap-text-seulgi{
+    margin-top: 360px;
+  }
+  .wrap-pic-seulgi img {
+    margin-top: 760px;
   }
 }
 
